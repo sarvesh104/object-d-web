@@ -14,7 +14,7 @@ const Home = () => {
       <Safe />
       <Ourapp />
       <Knowmore />
-      <Form />
+      {/* <Form /> */}
     </>
   );
 };

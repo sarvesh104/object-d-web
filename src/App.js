@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Contact from './pages/contact';
 import './App.css';
 import Layout from './Layout/Layout';
+import Errorm from './components/Errorm';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        
     </Route>
+    <Route path='*'  element={<Errorm />}/>
   </Routes>
   );
 }
